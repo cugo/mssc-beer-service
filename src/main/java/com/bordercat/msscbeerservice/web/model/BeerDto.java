@@ -17,6 +17,7 @@ import java.util.UUID;
 @AllArgsConstructor
 @Builder
 @Data
+//pojo class
 public class BeerDto {
 
     @Null
