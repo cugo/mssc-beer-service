@@ -16,8 +16,8 @@ import java.util.UUID;
 @NoArgsConstructor
 @Builder
 
-@Entity
 //persistent object
+@Entity
 public class Beer {
 
     @Id

@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 
 import java.math.BigDecimal;
 
-// class will run on start up everytime the spring context starts
+// class will run on start up every time the spring context starts
 
 @Component
 public class BeerLoader implements CommandLineRunner {
@@ -47,6 +47,6 @@ public class BeerLoader implements CommandLineRunner {
                     .build());
         }
 
-        //System.out.println("Loaded Beers: " + beerRepository.count());
+        System.out.println("Loaded Beers: " + beerRepository.count());
     }
 }
